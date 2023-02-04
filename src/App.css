@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+#container {
+  background: linear-gradient(to bottom, rgb(65, 177, 222,.7), rgb(246, 131, 150,.7), white);
+  min-height: 100vh;
+}
+
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: darkblue;
+  min-height: 4rem;
+}
+
+.link {
+  text-decoration: none;
+  color: azure;
+  font-size: 2rem;
+}
+
+.link:hover{
+  color: pink;
+}
+.inner-link{
+  color: black;
+}

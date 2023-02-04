@@ -1,0 +1,108 @@
+.main {
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+    font-size: 4rem;
+}
+
+.student-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 4rem;
+    min-height: 7rem;
+}
+
+#add-new-btn {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: .8rem 4rem;
+    font-size: 1.2rem;
+}
+
+.student-table {
+    background-color: rgb(241, 236, 236);
+    max-width: 90%;
+    margin: auto;
+    border: 1px solid rgb(156, 153, 153);
+    border-radius: .5rem;
+}
+
+.student-table-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+.student-name {
+    flex-basis: 20%;
+}
+
+.edit-link{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+td{
+    text-align: center;
+}
+
+/* ----------------------Edit Page-------------------- */
+
+.edit-page, .add-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15rem;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 5rem;
+}
+ fieldset{
+    width: 25rem;
+    height: 4rem;
+    border: 1px solid ;  
+    border-color: rgb(141, 137, 137);  
+    outline-color: transparent;
+    border-radius: 8px;    
+}
+fieldset:hover, legend:hover{
+    border-color: black;
+}
+fieldset:focus, legend:focus{
+    border-color: aqua;
+}
+ fieldset legend{
+    font-size: .8rem;
+    color: rgb(108, 108, 108)
+}
+ fieldset input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin: 0 .5rem;
+}
+.edit-button, .add-button{
+    display: flex;
+    gap: 3rem;
+    justify-content: right;
+    align-items: center;
+    height: 10rem;
+    max-width: 70rem;
+}
+.cancel{
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+}
+.update{
+    background-color: rgb(110, 110, 210);
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+}
